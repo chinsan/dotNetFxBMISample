@@ -1,4 +1,9 @@
 # ASP.NET Core (.NET Framework)
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'Azure Pass - Sponsorship(d210d23c-8496-4051-b8fc-c3bd5a12e8a9)'
+    KeyVaultName: 'twwin20200111'
+    SecretsFilter: '*'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
